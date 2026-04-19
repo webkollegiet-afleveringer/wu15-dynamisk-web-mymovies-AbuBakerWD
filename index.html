@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MyMovies</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    
+    <header class="header">
+      
+        <label class="switch" aria-label="Toggle dark mode">
+            <input type="checkbox" id="theme-toggle" />
+            <span class="slider round"></span>
+        </label>
+
+        
+        <h1 class="logo">MyMovies</h1>
+    </header>
+
+
+    <main>
+        
+        <section class="section">
+            <div class="section-header">
+                <h2>Now Showing</h2>
+                <button class="see-more">See more</button>
+            </div>
+            <div id="wrapper" class="movie-grid"></div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <h2>Popular</h2>
+                <button class="see-more">See more</button>
+            </div>
+            <div id="popular-wrapper" class="movie-list"></div>
+        </section>
+    </main>
+
+   
+    <nav class="bottom-nav">
+        <button class="nav-btn" aria-label="Home"><img src="img/bottom1.png" alt="Home"></button>
+        <button class="nav-btn" aria-label="Search"><img src="img/bottom2.png" alt="Search"></button>
+        <button class="nav-btn" aria-label="Saved"><img src="img/bottom3.png" alt="Saved"></button>
+    </nav>
+
+    <script src="secretstuff.js" defer></script>
+    <script src="theme.js" defer></script>
+    <script src="genre.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
